@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "464709839021",
+    "project_id": "loginappdemo-9fe67",
+    "storage_bucket": "loginappdemo-9fe67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464709839021:android:b6b1a5fdd8caa738f23e24",
+        "android_client_info": {
+          "package_name": "com.proxit.yamda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464709839021-3juoedo66vehmmi0vrnvbdj2ljpghcf3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.proxit.yamda",
+            "certificate_hash": "7fec8e53e6b90a19784c1efbd31b733d6e78478d"
+          }
+        },
+        {
+          "client_id": "464709839021-34h6vsoau1ftdrksbnlnv9mo0vr2hi5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv4fWqxL9yqVp6h3r28CAY-YR-MmNjG8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464709839021-34h6vsoau1ftdrksbnlnv9mo0vr2hi5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
