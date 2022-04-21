@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Prolly</string>
+    <string name="prolly">Prolly</string>
+    <string name="login_button">Login</string>
+    <string name="password_text">Password:</string>
+    <string name="username_text">Username:</string>
+    <string name="nameHint">João Franscisco</string>
+    <string name="exampleEmail">example@email.com</string>
+    <string name="PasswordHint">**********</string>
+    <string name="register_button">Register</string>
+    <string name="name_text">Name:</string>
+    <string name="register_screen">Register Screen</string>
+    <string name="email_text">Email:</string>
+    <string name="allready_have_an_account">Allready have an account?</string>
+    <string name="login_text">Login</string>
+    <string name="logout_button_text">LOGOUT</string>
+    <string name="userid_text">UserID:</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="content_descrpition">Imagem daAPP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

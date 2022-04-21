@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+  <TextView
+      android:id="@+id/yamba"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="serif-monospace"
+      android:text="@string/prolly"
+      android:textSize="34sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.67"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.223" />
+
+  <TextView
+      android:id="@+id/name_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/name_text"
+      app:layout_constraintBottom_toBottomOf="@+id/register_input_name"
+      app:layout_constraintEnd_toStartOf="@+id/register_input_name"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/register_input_name" />
+
+  <EditText
+      android:id="@+id/register_input_name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="@string/nameHint"
+      android:inputType="textEmailAddress"
+      android:minHeight="48dp"
+      android:textColorHint="#757575"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.409"
+      android:importantForAutofill="no" />
+
+  <EditText
+      android:id="@+id/register_input_email"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="@string/exampleEmail"
+      android:inputType="textEmailAddress"
+      android:minHeight="48dp"
+      android:textColorHint="#757575"
+      app:layout_constraintEnd_toEndOf="@+id/register_input_name"
+      app:layout_constraintStart_toStartOf="@+id/register_input_name"
+      app:layout_constraintTop_toBottomOf="@+id/register_input_name"
+      android:importantForAutofill="no" />
+
+  <EditText
+      android:id="@+id/register_input_password"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="@string/PasswordHint"
+      android:inputType="textPassword"
+      android:minHeight="48dp"
+      app:layout_constraintEnd_toEndOf="@+id/register_input_email"
+      app:layout_constraintStart_toStartOf="@+id/register_input_email"
+      app:layout_constraintTop_toBottomOf="@+id/register_input_email"
+      android:importantForAutofill="no" />
+
+  <TextView
+      android:id="@+id/Register_Text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/register_screen"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toTopOf="@+id/register_input_name"
+      app:layout_constraintEnd_toEndOf="@+id/yamba"
+      app:layout_constraintStart_toStartOf="@+id/yamba"
+      app:layout_constraintTop_toBottomOf="@+id/yamba" />
+
+  <TextView
+      android:id="@+id/email_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/email_text"
+      app:layout_constraintBottom_toBottomOf="@+id/register_input_email"
+      app:layout_constraintEnd_toStartOf="@+id/register_input_email"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/register_input_name" />
+
+  <TextView
+      android:id="@+id/password_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/password_text"
+      app:layout_constraintBottom_toBottomOf="@+id/register_input_password"
+      app:layout_constraintEnd_toStartOf="@+id/register_input_password"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/register_input_email" />
+
+  <ImageView
+      android:id="@+id/prolly_image"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#FFFFFF"
+      android:fitsSystemWindows="false"
+      app:layout_constraintBottom_toTopOf="@+id/Register_Text"
+      app:layout_constraintEnd_toStartOf="@+id/yamba"
+      app:layout_constraintStart_toStartOf="@+id/register_input_name"
+      app:srcCompat="@mipmap/yamda_round"
+      android:contentDescription="TODO" />
+
+  <TextView
+      android:id="@+id/got_an_accounttext"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="4dp"
+      android:text="@string/allready_have_an_account"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="@+id/register_input_password"
+      app:layout_constraintTop_toBottomOf="@+id/register_input_password"
+      app:layout_constraintVertical_bias="0.069" />
+
+  <TextView
+      android:id="@+id/Login_button_registerActivity"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/login_text"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="@+id/got_an_accounttext"
+      app:layout_constraintEnd_toEndOf="@+id/register_input_password"
+      app:layout_constraintStart_toEndOf="@+id/got_an_accounttext"
+      app:layout_constraintTop_toTopOf="@+id/got_an_accounttext" />
+
+  <Button
+      android:id="@+id/button_register"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Register"
+      app:layout_constraintEnd_toEndOf="@+id/got_an_accounttext"
+      app:layout_constraintStart_toStartOf="@+id/got_an_accounttext"
+      app:layout_constraintTop_toBottomOf="@+id/got_an_accounttext" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
